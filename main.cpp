@@ -42,7 +42,7 @@ void display() {
     glFlush();
 }
 
-// função de teclado para controlar o número de vértices, o modo de preenchimento, a espessura da borda e as cores do preenchimento e da borda. A função do que cada tecla faz está descrita no readme.
+// função de teclado para controlar o número de vértices, o modo de preenchimento, a espessura da borda e as cores do preenchimento e da borda. A função do que cada tecla faz está descrita no relatório.
 void keyboard(unsigned char key, int x, int y) {
     switch (key) {
     case 'n': case 'N': numVertices++; break; 
