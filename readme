@@ -1,0 +1,13 @@
+# 1) Preparo do ambiente
+```
+sudo apt update
+sudo apt install build-essential freeglut3-dev libglew-dev mesa-utils
+```
+# 2) Compilação do código
+```
+g++ main.cpp -o atividadeCG -lglut -lGL -lGLU
+```
+# 3) Executar o programa
+```
+./atividadeCG
+```
