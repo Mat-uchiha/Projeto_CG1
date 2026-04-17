@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cmath>
 
-// definição de variáveis globais para controle do polígono, fiz sem um vetor de vértices para facilitar a manipulação do número de vértices e suas posições.
+// definição de variáveis globais para controle do polígono, fiz sem um vetor de vértices para facilitar a manipulação do número de vértices.
 int numVertices = 5;
 float espessura = 2.0f;
 int modoPreenchido = 1;
